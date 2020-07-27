@@ -1,5 +1,5 @@
 {% set name = "gempy" %}
-{% set version = "2.2.2" %}
+{% set version = "2.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 237ba93a0eec5b41068e94977a10aae285aa46f1a527ae2280817975239e6a25
+  sha256: be8ac80cf0a315179a1142b1987e44e7196a738a6f8ebd2d873319b4a811a5da
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -42,7 +42,7 @@ about:
   license: LGPL-3.0-only
   license_file: LICENSE
   license_family: LGPL
-  summary: 'Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis'
+  summary: Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis
 
   description: |
     GemPy is an open-source, Python-based 3-D structural geological modeling software,
