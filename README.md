@@ -5,7 +5,7 @@ Home: https://github.com/cgre-aachen/gempy
 
 Package license: LGPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis
 
