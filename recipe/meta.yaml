@@ -31,7 +31,6 @@ requirements:
     - pymc3
     - ipython
     - pytest
-    - pymc3
 
 test:
   imports:
