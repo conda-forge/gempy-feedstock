@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python
-    - pandas
+    - pandas <=1.0.5
     - matplotlib
     - numpy
     - networkx
