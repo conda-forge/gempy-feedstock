@@ -5,9 +5,13 @@ Home: https://github.com/cgre-aachen/gempy
 
 Package license: LGPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gempy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis
+
+Development: https://github.com/cgre-aachen/gempy
+
+Documentation: https://docs.gempy.org/
 
 GemPy is an open-source, Python-based 3-D structural geological modeling software,
 which allows the implicit (i.e. automatic) creation of complex geological models
