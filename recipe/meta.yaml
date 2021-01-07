@@ -28,10 +28,9 @@ requirements:
     - scikit-image >=0.17
     - seaborn >=0.9
     - theano >=1.0.4
-    - pymc3
+    - pymc3 <=3.9.3
     - ipython
     - pytest
-    - pymc3
 
 test:
   imports:
