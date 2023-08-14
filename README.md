@@ -1,11 +1,11 @@
-About gempy
-===========
+About gempy-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gempy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cgre-aachen/gempy
 
 Package license: LGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gempy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis
 
