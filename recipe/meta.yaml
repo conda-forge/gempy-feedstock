@@ -1,5 +1,5 @@
 {% set name = "gempy" %}
-{% set version = "2.2.12" %}
+{% set version = "2024.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0432d7084e0c08794accbe2b944bdddce0d748af5c43fb0a8382a493f0dd9c9f
+  sha256: a57e4603c5ffea2d327ef76dd5bf00425f055168cde204d629011eb4e697d29f
 
 build:
   noarch: python
