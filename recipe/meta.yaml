@@ -1,6 +1,6 @@
 {% set name = "gempy" %}
 {% set version = "2024.1.2" %}
-{% set python_min = "3.7" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -18,13 +18,13 @@ build:
 requirements:
   host:
     - python
-    - pip >={{python_min}}
+    - pip {{ python_min }}
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - pandas <=1.0.5
-    - matplotlib
+    - matplotlib-base
     - numpy
     - networkx
     - pyvista
@@ -36,6 +36,7 @@ requirements:
 
 test:
   requires:
+    - python {{ python_min }}
     - pytest
   imports:
     - gempy
