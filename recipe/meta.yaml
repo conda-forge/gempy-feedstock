@@ -37,7 +37,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/cgre-aachen/gempy
+  home: https://github.com/gempy-project/gempy
   license: LGPL-3.0-only
   license_file: LICENSE
   license_family: LGPL
@@ -49,7 +49,7 @@ about:
     from interface and orientation data. It also offers support for stochastic modeling
     to adress parameter and model uncertainties
   doc_url: https://docs.gempy.org/
-  dev_url: https://github.com/cgre-aachen/gempy
+  dev_url: https://github.com/gempy-project/gempy
 
 extra:
   recipe-maintainers:
