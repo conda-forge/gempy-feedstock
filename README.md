@@ -3,13 +3,13 @@ About gempy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gempy-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/cgre-aachen/gempy
+Home: https://github.com/gempy-project/gempy
 
 Package license: LGPL-3.0-only
 
 Summary: Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis
 
-Development: https://github.com/cgre-aachen/gempy
+Development: https://github.com/gempy-project/gempy
 
 Documentation: https://docs.gempy.org/
 
@@ -155,4 +155,6 @@ Feedstock Maintainers
 
 * [@AndrewAnnex](https://github.com/AndrewAnnex/)
 * [@Leguark](https://github.com/Leguark/)
+* [@SophieCurinier](https://github.com/SophieCurinier/)
+* [@sebhmg](https://github.com/sebhmg/)
 
