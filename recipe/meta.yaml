@@ -1,7 +1,6 @@
 {% set name = "gempy" %}
 {% set version = "2024.2.0.2" %}
 {% set python_min = "3.10" %}
-{% set python_max = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -23,8 +22,8 @@ requirements:
     - setuptools
     - setuptools-scm
   run:
-    - python >={{ python_min }},<{{ python_max }}
-    - gempy-engine >=2024.2.0,<2024.3.dev0
+    - python >={{ python_min }}
+    - gempy-engine >=2024.2.0,<2024.3.dev
 
 
 test:
