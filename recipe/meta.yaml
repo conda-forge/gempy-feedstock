@@ -52,7 +52,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - sebhmg
-    - SophieCurinier
+    - conda-forge/geoh5py
     - Leguark
     - AndrewAnnex
