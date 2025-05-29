@@ -155,6 +155,5 @@ Feedstock Maintainers
 
 * [@AndrewAnnex](https://github.com/AndrewAnnex/)
 * [@Leguark](https://github.com/Leguark/)
-* [@SophieCurinier](https://github.com/SophieCurinier/)
-* [@sebhmg](https://github.com/sebhmg/)
+* [@conda-forge/geoh5py](https://github.com/orgs/conda-forge/teams/geoh5py/)
 
