@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gempy-feedstock
 
 Home: https://github.com/gempy-project/gempy
 
-Package license: LGPL-3.0-only
+Package license: EUPL-1.2
 
 Summary: Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis
 
@@ -155,6 +155,5 @@ Feedstock Maintainers
 
 * [@AndrewAnnex](https://github.com/AndrewAnnex/)
 * [@Leguark](https://github.com/Leguark/)
-* [@SophieCurinier](https://github.com/SophieCurinier/)
-* [@sebhmg](https://github.com/sebhmg/)
+* [@conda-forge/geoh5py](https://github.com/orgs/conda-forge/teams/geoh5py/)
 

@@ -1,5 +1,5 @@
 {% set name = "gempy" %}
-{% set version = "2024.2.0.2" %}
+{% set version = "2025.1.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gempy-{{ version }}.tar.gz
-  sha256: e01abba7026078234b3cecd6102257cb4dd6e3426614728c70deaa7be48f8533
+  sha256: 3b9e9d3ce9a94694116592e1f7327440c8f077862e0e18ad1102b3e9c4ea1fc6
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -23,7 +23,8 @@ requirements:
     - setuptools-scm
   run:
     - python >={{ python_min }}
-    - gempy-engine >=2024.2.0,<2024.3.dev
+    - gempy-engine >=2025.1.1,<2026.0.0.dev
+    - typing_extensions
 
 
 test:
@@ -37,9 +38,8 @@ test:
 
 about:
   home: https://github.com/gempy-project/gempy
-  license: LGPL-3.0-only
+  license: EUPL-1.2
   license_file: LICENSE
-  license_family: LGPL
   summary: Open-source, implicit 3D structural geological modeling in Python for uncertainty analysis
 
   description: |
@@ -52,7 +52,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - sebhmg
-    - SophieCurinier
+    - conda-forge/geoh5py
     - Leguark
     - AndrewAnnex
