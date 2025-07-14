@@ -1,5 +1,5 @@
 {% set name = "gempy" %}
-{% set version = "2025.1.0" %}
+{% set version = "2025.2.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gempy-{{ version }}.tar.gz
-  sha256: 3b9e9d3ce9a94694116592e1f7327440c8f077862e0e18ad1102b3e9c4ea1fc6
+  sha256: ea2fdf3c8de745122373d23803276b548e899ea0673f0678c5280fb47c6a64b9
 
 build:
   noarch: python
