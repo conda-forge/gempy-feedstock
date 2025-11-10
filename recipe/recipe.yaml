@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python 3.10.*
+    - python ${{ python_min }}.*
     - pip
     - setuptools
     - setuptools-scm
@@ -31,6 +31,7 @@ requirements:
 
 tests:
   - python:
+      python_version: ${{ python_min }}.*
       imports:
         - gempy
       pip_check: true
@@ -54,4 +55,3 @@ extra:
     - conda-forge/geoh5py
     - Leguark
     - AndrewAnnex
-
