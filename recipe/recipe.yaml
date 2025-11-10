@@ -35,6 +35,20 @@ tests:
       imports:
         - gempy
       pip_check: true
+  - requirements:
+      run:
+        - numpy
+        - pandas
+        - pooch
+        - pytest
+    files:
+      source:
+        - test/
+      recipe:
+        - gempy_viewer.py
+        - matplotlib.py
+    script:
+      - pytest test/test_core
 
 about:
   license: EUPL-1.2
