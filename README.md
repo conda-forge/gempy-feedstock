@@ -18,7 +18,6 @@ which allows the implicit (i.e. automatic) creation of complex geological models
 from interface and orientation data. It also offers support for stochastic modeling
 to adress parameter and model uncertainties
 
-
 Current build status
 ====================
 
