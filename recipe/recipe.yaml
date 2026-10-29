@@ -26,6 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - gempy-engine >=2026.0.3
+    - pandas >=2.2.0,<3.0.0
     - typing_extensions
 
 tests:
